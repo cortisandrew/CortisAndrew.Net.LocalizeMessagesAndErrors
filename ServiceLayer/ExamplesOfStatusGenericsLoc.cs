@@ -100,7 +100,7 @@ public class ExamplesOfStatusGenericsLoc<TResource>
             var dateInput = $"{month}, {day}, {year}";
             var parsedDate = DateTime.Parse(dateInput, new CultureInfo("en-US"));
             status.SetMessageFormatted("Success".ClassMethodLocalizeKey(this, false),
-                $"Successfully created the date {parsedDate:D}.");
+                $"Successfully created the date {parsedDate:dd MMMM yyyy}.");
             return status.SetResult(parsedDate);
         }
         catch (FormatException)

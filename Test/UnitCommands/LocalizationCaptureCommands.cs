@@ -5,7 +5,7 @@ using System;
 using System.Linq;
 using Test.StubClasses;
 using TestSupport.Attributes;
-using Xunit.Abstractions;
+using Xunit;
 
 namespace Test.UnitCommands;
 

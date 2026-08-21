@@ -99,6 +99,7 @@ public class TestSimpleLocalizer
     public void TestStaticLocalizeFormatted_Complex()
     {
         //SETUP
+        Thread.CurrentThread.CurrentCulture = new CultureInfo("en-GB");
         Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-GB");
 
         //ATTEMPT

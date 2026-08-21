@@ -9,22 +9,22 @@
 
 	<ItemGroup>
 		<PackageReference Include="GenericServices.StatusGeneric" Version="1.2.0" />
-		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
-		<PackageReference Include="Microsoft.Build" Version="18.0.2" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.0">
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.12" />
+		<PackageReference Include="Microsoft.Build" Version="18.9.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.11">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="10.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0" />
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0" />
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="10.0.11" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.11" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.11" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.2" />
 	</ItemGroup>
 
 	<PropertyGroup>
-		<PackageId>Net.LocalizeMessagesAndErrors</PackageId>
-		<PackageVersion>10.0.0</PackageVersion>
-		<Version>10.0.0</Version>
+		<PackageId>CortisAndrew.Net.LocalizeMessagesAndErrors</PackageId>
+		<PackageVersion>10.0.0-CortisAndrew.1</PackageVersion>
+		<Version>10.0.0-CortisAndrew.1</Version>
 		<Authors>Jon P Smith</Authors>
 		<Description>Provides extra features to .NET Localization that make it easier to add multiple languages to your app.</Description>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -35,8 +35,8 @@
 		<PackageTags>Localization, Multilingual, Globalization, Status</PackageTags>
 		<IsPackable>true</IsPackable>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<ProjectUrl>https://github.com/JonPSmith/Net.LocalizeMessagesAndErrors</ProjectUrl>
-		<RepositoryUrl>https://github.com/JonPSmith/Net.LocalizeMessagesAndErrors</RepositoryUrl>
+		<ProjectUrl>https://github.com/cortisandrew/CortisAndrew.Net.LocalizeMessagesAndErrors</ProjectUrl>
+		<RepositoryUrl>https://github.com/cortisandrew/CortisAndrew.Net.LocalizeMessagesAndErrors</RepositoryUrl>
 		<PackageIcon>LocalizeMessagesAndErrorsNuGetIcon.png</PackageIcon>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
